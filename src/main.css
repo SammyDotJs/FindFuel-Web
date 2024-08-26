@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #145858;
+  --secondary-color: #c8e0ca;
+  --odd-bg: #f0f0f0;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  background: var(--main-color);
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+.btn {
+  background: var(--main-color);
+  font-family: Inter;
+  font-weight: 600;
+}
+
+.h {
+  color: var(--main-color);
+  font-family: Krona One;
+}
+
+.hw {
+  font-family: Krona One;
+}
+
+.pw {
+  font-family: poppins;
+}
+
+.p {
+  color: var(--main-color);
+  font-family: poppins;
+}
+
+.main {
+  background: var(--main-color);
+}
+
+.secondary {
+  background: var(--secondary-color);
+}
+
+.odd-bg {
+  background: var(--odd-bg);
+}/*# sourceMappingURL=main.css.map */
