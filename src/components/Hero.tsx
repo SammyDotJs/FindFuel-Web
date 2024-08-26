@@ -9,9 +9,11 @@ const Hero = () => {
           Stay fueled and worry-free with our app and easily locate nearby fuel
           stations ensuring you are prepared for the road ahead.
         </p>
-        <button className="btn py-3 px-7 rounded-lg text-white text-base w-fit">
-          Join waitlist
-        </button>
+        <a href="http://localhost:5174/#join-waitlist">
+          <button className="btn py-3 px-7 rounded-lg text-white text-base w-fit">
+            Join waitlist
+          </button>
+        </a>
       </div>
       <div className="w-full lg:w-2/5 hidden lg:block">
         <img src="src/assets/hero-1.png" className="w-full h-full bg-contain" />
