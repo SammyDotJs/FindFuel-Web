@@ -6,7 +6,7 @@ const PriceUpdates = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    customPaging: i => {
+    customPaging: () => {
       return (
         <div
           style={{

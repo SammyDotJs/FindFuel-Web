@@ -9,7 +9,7 @@ const Hero = () => {
           Stay fueled and worry-free with our app and easily locate nearby fuel
           stations ensuring you are prepared for the road ahead.
         </p>
-        <a href="http://localhost:5174/#join-waitlist">
+        <a href="https://findfuel-waitlist.vercel.app/#join-waitlist">
           <button className="btn py-3 px-7 rounded-lg text-white text-base w-fit">
             Join waitlist
           </button>
