@@ -1,3 +1,5 @@
+import hero1 from "../assets/hero-1.png";
+
 const Hero = () => {
   return (
     <div className="h-full flex-wrap flex flex-row justify-center items-center p-9 lg:pl-24 lg:pr-0 pb-20">
@@ -16,7 +18,7 @@ const Hero = () => {
         </a>
       </div>
       <div className="w-full lg:w-2/5 hidden lg:block">
-        <img src="src/assets/hero-1.png" className="w-full h-full bg-contain" />
+        <img src={hero1} className="w-full h-full bg-contain" />
       </div>
     </div>
   );

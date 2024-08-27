@@ -21,7 +21,7 @@ const PriceUpdates = () => {
     },
   };
   return (
-    <div className="flex flex-col px-24 py-32">
+    <div className="flex flex-col p-9 lg:px-24 lg:py-32">
       <div className="flex flex-col items-center justify-center gap-5">
         <h1 className="h text-4xl lg:text-6xl font-normal text-center">
           Get Live Price Updates on Fuel Stations

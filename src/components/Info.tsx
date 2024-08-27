@@ -1,13 +1,16 @@
+import hero1 from "../assets/hero-2-1.png";
+import hero2 from "../assets/hero-2-2.png";
+import hero3 from "../assets/hero-2-3.png";
 
 const Info = () => {
   return (
-    <div className="h-full flex flex-col items-center px-24 py-32">
+    <div className="h-full flex flex-col items-center p-9 lg:px-24 lg:py-32">
       <h1 className="h text-4xl lg:text-6xl font-normal text-center">
         How Find Fuel Works
       </h1>
       <div className="flex flex-col lg:flex-row justify-evenly items-center gap-28 mt-16">
         <div className="flex flex-col gap-2 items-center">
-          <img src="src/assets/hero-2-1.png" alt="" className="" />
+          <img src={hero1} alt="" className="" />
           <h3 className="h text-3xl font-normal">Search</h3>
           <p className="p text-lg text-center max-w-xs">
             Enter your current location or allow the app to access your GPS to
@@ -15,7 +18,7 @@ const Info = () => {
           </p>
         </div>
         <div className="flex flex-col gap-2 items-center">
-          <img src="src/assets/hero-2-2.png" alt="" className="" />
+          <img src={hero2} alt="" className="" />
           <h3 className="h text-3xl font-normal">Filter</h3>
           <p className="p text-lg text-center max-w-xs">
             Customize your search by filtering options such as fuel type, price
@@ -23,7 +26,7 @@ const Info = () => {
           </p>
         </div>
         <div className="flex flex-col gap-2 items-center">
-          <img src="src/assets/hero-2-3.png" alt="" className="" />
+          <img src={hero3} alt="" className="" />
           <h3 className="h text-3xl font-normal">Navigate</h3>
           <p className="p text-lg text-center max-w-xs">
             Select a station from the results, view detailed information
